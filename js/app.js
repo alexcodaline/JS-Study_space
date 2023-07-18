@@ -3,11 +3,11 @@ let a = prompt("Enter number a:");
 let b = prompt("Enter number b:");
 function maxNumber(a, b) {
   if (Number(a) > Number(b)) {
-    return "number a";
+    return "number a>b = " + a;
   } else if (Number(b) > Number(a)) {
-    return "number b";
+    return "number b>a = " + b;
   } else {
-    return "number a=b";
+    return "a = b";
   }
 }
 alert(maxNumber(a, b));
