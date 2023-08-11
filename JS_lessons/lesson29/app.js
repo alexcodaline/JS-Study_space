@@ -101,7 +101,7 @@ function showMovie(user) {
     console.log("Sorry, you are too young");
   }
 }
-
+let user = new MakeUsers("Mike");
 function getAge() {
   const age = parseInt(prompt("Enter your age:"));
   if (isNaN(age)) {
