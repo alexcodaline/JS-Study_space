@@ -58,9 +58,43 @@
 // });
 
 // console.log(uniqueGoods);
+
 // Завдання 4
 
 let mike = { name: "Mike", age: 18 };
 let bob = { name: "Bob", age: 25 };
 let nikola = { name: "Nikola", age: 32 };
+let userVisits = new Map();
 
+function mikeVisits(user) {
+  if (userVisits.has(user)) {
+    userVisits.set(user, userVisits.get(user) + 1);
+  } else {
+    userVisits.set(user, 1);
+  }
+}
+
+function bobVisits(user) {
+  if (userVisits.has(user)) {
+    userVisits.set(user, userVisits.get(user) + 1);
+  } else {
+    userVisits.set(user, 1);
+  }
+}
+function nikolaVisits(user) {
+  if (userVisits.has(user)) {
+    userVisits.set(user, userVisits.get(user) + 1);
+  } else {
+    userVisits.set(user, 1);
+  }
+}
+
+mikeVisits(mike);
+mikeVisits(mike);
+mikeVisits(mike);
+bobVisits(bob);
+nikolaVisits(nikola);
+nikolaVisits(nikola);
+console.log(userVisits.get(mike));
+console.log(userVisits.get(bob));
+console.log(userVisits.get(nikola));
