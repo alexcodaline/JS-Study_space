@@ -1,0 +1,26 @@
+{
+  "name": "lesson20",
+  "version": "1.0.0",
+  "description": "Education",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcodaline/JS-Study_space.git"
+  },
+  "keywords": [
+    "STUDYSPACE",
+    "STUDYUA"
+  ],
+  "author": "Olexandr Ponomarenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexcodaline/JS-Study_space/issues"
+  },
+  "homepage": "https://github.com/alexcodaline/JS-Study_space#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}
